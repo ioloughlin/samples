@@ -1,5 +1,5 @@
 
-arr = [0, 0, 9]
+arr = [9,9,9,7]
 roll = False
 print(arr)
 
@@ -14,8 +14,8 @@ while idx >= 0:
     if arr[idx] == 10:
         roll = True
         arr[idx] = 0
-
-    print(arr)
+    else:
+        break
     idx -= 1
 
 if roll is True:
